@@ -50,3 +50,10 @@ Tüzüğün 4. maddesinde teknik detaylar belirtilmiştir. Buna göre ayı çizm
     <td>ay iç çemberinin yarıçapı = 48</td><td>çapı bayrak eninin onda dördüdür</td>
   </tr>
 </table>
+
+
+Tüzükte yıldız çember merkezi tarif edilmemiştir, ancak yıldız çemberinin uçkur yönünde ekseni kesen noktası tanımlanmıştır.
+Bu nokta ayın iki ucundan geçtiği farzedilen düşey doğrunun ekseni kestiği yerdir,
+ve iç çemberin uçkur yönünde ekseni kesen noktasından bayrak eninin üçte biri uzaklıktadır.
+Bu noktanın üzerine yıldız çemberi yarıçapı kadar daha eklersek yıldız merkezini bulmuş oluruz.
+
