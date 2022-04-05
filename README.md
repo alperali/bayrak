@@ -79,13 +79,9 @@ Yani bu çizginin sağ tarafında aya ait hiçbir parça görülmemesi gerekirke
 biraz girmesine sebep olmaktadır. Bu, SVG motorunun bir hatası olabilir veya başka nedenlerle oluşabilir, ancak sonuçta hatadır.
 Bu çizginin **uçkur genişliğinin yarısı** kadar daha sağa alınması bu hatanın giderilmesini sağlamaktadır.
 Uçkur genişliği bayrak eninin otuzda biri olduğuna göre eklenecek miktar 240/60 = 4 olur. Yıldız çember merkezinin x koordinatı 201 olur.
-Bu durum aşağıdaki tabloda net olarak görülmektedir.
+Bu durum aşağıdaki şekillerde net olarak görülmektedir.
 
-<table role="table">
-<tr><td>
+![Çizim1](./cizgi1.svg)
+        
+![Çizim2](./cizgi2.svg)
 
-![Cizim1](./sema.svg)
-</td></tr>
-</table>
-
-asdasdasd
