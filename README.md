@@ -90,7 +90,7 @@ Bu durum aşağıdaki şekillerde net olarak görülmektedir.
 ![Yıldız](./yildiz.svg)
 
 Yukarıdaki şekilde yıldız çemberi ve bu çember üzerinde olması gereken 5 adet yıldız köşesi gösterilmektedir (a,b,c,d,e).
-Şu ana kadar a köşesi ile çember merkezinin (*O*) koordinatları ve çember yarıçapı (*r*) bilinmektedir.
+a köşesi ile çember merkezinin (*O*) koordinatları ve çember yarıçapı (*r*) bilinmektedir.
 Kalan köşelerin koordinatlarını temel trigonometri bilgilerini kullanarak bulabiliriz.
 
 b ve c köşelerinden eksene birer dik çekerek hipotenüsleri çember yapıçapı olan iki dik üçgen elde edelim.
