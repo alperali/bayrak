@@ -95,7 +95,22 @@ Kalan köşelerin koordinatlarını temel trigonometri bilgilerini kullanarak bu
 
 b ve c köşelerinden eksene birer dik çekerek hipotenüsleri çember yapıçapı olan iki dik üçgen elde edelim.
 Yıldız köşelerinin çemberi 5 eşit parçaya ayırdığı bilindiğine göre, a-b yayını gören merkez açı `360/5 = 72` derece olur.
-`cos(72) = x/r` eşitliğinden `x = cos(72)/r` olur. `sin(72) = y/r` eşitliğinden `y = sin(72)/r` olur.
+`cos(72) = v/r` eşitliğinden `v = cos(72)*r` olur. `sin(72) = s/r` eşitliğinden `s = sin(72)*r` olur.
 
 c ile eksen arasında kalan yayı gören merkez açı `180-(72+72) = 36` derece olur.
-`cos(36) = p/r` eşitliğinden `p = cos(36)/r` olur. `sin(36) = t/r` eşitliğinden `t = sin(36)/r` olur.
+`cos(36) = p/r` eşitliğinden `p = cos(36)*r` olur. `sin(36) = t/r` eşitliğinden `t = sin(36)*r` olur.
+
+a köşesi eksen üzerinde olduğundan e köşesi b'ye, d köşesi c'ye simetriktir.
+Yukarıda bulduğumuz büyüklüleri bu köşeler için de kullanabiliriz.
+
+Bu hesaplamalar sonucu köşelerin koordinatları aşağıdadır:
+```
+a = 171,240
+b = 191.72949016875,211.46830451114
+c = 225.27050983124,222.36644243122
+d = 225.27050983124,257.63355756877
+e = 191.72949016875,268.53169548885
+```
+
+a köşesinden başlayıp saat yönünde birer köşe atlayarak `<polygon>` ile yıldız çizilir.
+
