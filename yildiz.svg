@@ -1,0 +1,42 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg"
+     viewBox="0 0 80 80">
+  
+  <circle cx="40" cy="40" r="30" stroke="crimson" fill="transparent" stroke-width="0.5"/>
+  
+  <line x1="40" y1="40" x2="30.729490168751575" y2="11.468304511145394"
+        stroke="black" stroke-width="0.33" stroke-dasharray="0.66 0.5"/>
+		
+  <line x1="30.729490168751575" y1="40" x2="30.729490168751575" y2="11.468304511145394"
+        stroke="lightgrey" stroke-width="0.33"/>
+  <rect x="30.729490168751575" y="37" width="3" height="3" stroke="lightgrey" stroke-width="0.25" fill="transparent"/>
+  <circle cx="32.229490168751575" cy="38.5" r="0.33" stroke="lightgrey" stroke-width="0.25" fill="lightgrey"/>
+  
+  <line x1="40" y1="40" x2="64.27050983124842" y2="22.366442431225803"
+        stroke="black" stroke-width="0.33" stroke-dasharray="0.66 0.5"/>
+		
+  <line x1="64.27050983124842" y1="40" x2="64.27050983124842" y2="22.366442431225803"
+        stroke="lightgrey" stroke-width="0.33"/>
+  <rect x="61.27050983124842" y="37" width="3" height="3" stroke="lightgrey" stroke-width="0.25" fill="transparent"/>
+  <circle cx="62.77050983124842" cy="38.5" r="0.33" stroke="lightgrey" stroke-width="0.25" fill="lightgrey"/>
+  
+		
+  <line x1="40" y1="40" x2="64.27050983124842" y2="57.633557568774194"
+        stroke="black" stroke-width="0.33" stroke-dasharray="0.66 0.5"/>
+		
+  <line x1="40" y1="40" x2="30.729490168751575" y2="68.53169548885461"
+        stroke="black" stroke-width="0.33" stroke-dasharray="0.66 0.5"/>
+  
+  <text x="39.5" y="45" font-size="40%">o</text>
+  <text x="7"  y="39" font-size="33%">a</text>
+  <text x="29" y="11" font-size="33%">b</text>
+  <text x="65" y="23" font-size="33%">c</text>
+  <text x="65" y="60" font-size="33%">d</text>
+  <text x="29" y="72" font-size="33%">e</text>
+
+  <text x="34" y="42.5" font-size="22%" font-style="italic">x</text>
+  <text x="28" y="29"   font-size="22%" font-style="italic">y</text>
+  <text x="53" y="42.5" font-size="22%" font-style="italic">p</text>
+  <text x="62" y="32"   font-size="22%" font-style="italic">t</text>
+  
+  <line x1="0" y1="50%" x2="100%" y2="50%" stroke="black" stroke-width="0.33"/>
+</svg>
