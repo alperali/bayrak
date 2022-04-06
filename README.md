@@ -105,11 +105,11 @@ Yukarıda bulduğumuz büyüklüleri bu köşeler için de kullanabiliriz.
 
 Bu hesaplamalar sonucu köşelerin koordinatları aşağıdadır:
 ```
-a = 171,240
-b = 191.72949016875,211.46830451114
-c = 225.27050983124,222.36644243122
-d = 225.27050983124,257.63355756877
-e = 191.72949016875,268.53169548885
+a = 171,120
+b = 191.72949016875,91.46830451114
+c = 225.27050983124,102.36644243122
+d = 225.27050983124,137.63355756877
+e = 191.72949016875,148.53169548885
 ```
 
 a köşesinden başlayıp saat yönünde birer köşe atlayarak `<polygon>` ile yıldız çizilir.
