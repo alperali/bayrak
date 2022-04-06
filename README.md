@@ -9,7 +9,7 @@ Bu sayede tüzüğe uygun olup olmadığını parametreleri kontrol ederek teyit
 Piyasada dolaşan SVG bayraklar fotoğraftan (*raster image*) devşirmedir, `<path>` kullanarak çizim yapar.
 Bunlarda tüzüğe uygunluğu kontrol etmek pratik olarak mümkün değildir.
 
-## Anlatım
+## Ayın çizilmesi
 Tüzüğün 4. maddesinde teknik detaylar belirtilmiştir. Buna göre ayı çizmek çok kolaydır.
 `en=240` için çizim (uçkur hariç) aşağıda gösterilmiştir.
 
@@ -51,7 +51,7 @@ Tüzüğün 4. maddesinde teknik detaylar belirtilmiştir. Buna göre ayı çizm
   </tr>
 </table>
 
-
+## Yıldız çemberi
 Tüzükte yıldız çember merkezi tarif edilmemiştir, ancak yıldız çemberinin uçkur yönünde ekseni kesen noktası tanımlanmıştır.
 Bu nokta ayın iki ucundan geçtiği farzedilen düşey doğrunun ekseni kestiği yerdir,
 ve iç çemberin uçkur yönünde ekseni kesen noktasından bayrak eninin üçte biri uzaklıktadır.
@@ -75,7 +75,7 @@ Bu hesapla bulunan yıldız çemberi aşağıda kırmızıyla gösterilmiştir.
 
 
 ***Dikkat:*** Yukarıdaki şemada ay uçlarından geçmesi gereken düşey çizginin tam olarak uçlarda olmayıp biraz içeride kaldığı görülmektedir.
-Yani bu çizginin sağ tarafında aya ait hiçbir parça görülmemesi gerekirken parçalar bu şemada görülmektedir ve çizilen yıldızın ay içine
+Yani bu çizginin sağ tarafında aya ait hiçbir parça görülmemesi gerekirken parçalar bu şemada görülmektedir ve çizilecek yıldızın ay içine
 biraz girmesine sebep olmaktadır. Bu, SVG motorunun bir hatası olabilir veya başka nedenlerle oluşabilir, ancak sonuçta hatadır.
 Bu çizginin **uçkur genişliğinin yarısı** kadar daha sağa alınması bu hatanın giderilmesini sağlamaktadır.
 Uçkur genişliği bayrak eninin otuzda biri olduğuna göre eklenecek miktar 240/60 = 4 olur. Yıldız çember merkezinin x koordinatı 201 olur.
@@ -85,7 +85,7 @@ Bu durum aşağıdaki şekillerde net olarak görülmektedir.
         
 ![Çizim2](./cizgi2.svg)
 
-### Yıldızın çizilmesi
+## Yıldızın çizilmesi
 
 ![Yıldız](./yildiz.svg)
 
