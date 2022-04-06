@@ -78,7 +78,7 @@ Bu hesapla bulunan yıldız çemberi aşağıda kırmızıyla gösterilmiştir.
 Yani bu çizginin sağ tarafında aya ait hiçbir parça görülmemesi gerekirken parçalar bu şemada görülmektedir ve çizilecek yıldızın ay içine
 biraz girmesine sebep olmaktadır. Bu, SVG motorunun bir hatası olabilir veya başka nedenlerle oluşabilir, ancak sonuçta hatadır.
 Bu çizginin **uçkur genişliğinin yarısı** kadar daha sağa alınması bu hatanın giderilmesini sağlamaktadır.
-Uçkur genişliği bayrak eninin otuzda biri olduğuna göre eklenecek miktar 240/60 = 4 olur. Yıldız çember merkezinin x koordinatı 201 olur.
+Uçkur genişliği bayrak eninin otuzda biri olduğuna göre eklenecek miktar 240/60 = 4 olur. Yıldız çember merkezinin x koordinatı 197+4 = 201 olur.
 Bu durum aşağıdaki şekillerde net olarak görülmektedir.
 
 ![Çizim1](./cizgi1.svg)
@@ -89,7 +89,7 @@ Bu durum aşağıdaki şekillerde net olarak görülmektedir.
 
 ![Yıldız](./yildiz.svg)
 
-Yukarıdaki şekilde yıldız çemberi ve bu çember üzerinde olması gereken 5 adet yıldız köşesi gösterilmektedir (a,b,c,d,e).
+Yukarıdaki şekilde yıldız çemberi ve bu çember üzerinde olması gereken 5 adet yıldız köşesi gösterilmektedir.
 a köşesi ile çember merkezinin (*O*) koordinatları ve çember yarıçapı (*r*) bilinmektedir.
 Kalan köşelerin koordinatlarını temel trigonometri bilgilerini kullanarak bulabiliriz.
 
