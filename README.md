@@ -1,5 +1,5 @@
 # Türk Bayrağı
-[Resmi tüzüğe uygun](https://www.mevzuat.gov.tr/MevzuatMetin/2.5.859034.pdf) Türk bayrağı çizimidir.
+[Resmi tüzüğe](https://www.mevzuat.gov.tr/MevzuatMetin/2.5.859034.pdf) uygun Türk bayrağı çizimidir.
 
 ![Türk Bayrağı](./tr.svg)
 
@@ -74,7 +74,7 @@ Bu hesapla bulunan yıldız çemberi aşağıda kırmızıyla gösterilmiştir.
 </table>
 
 
-Yukarıdaki şemada ay uçlarından geçmesi gereken düşey çizginin tam olarak uçlarda olmayıp biraz içeride kaldığı görülmektedir.
+***Dikkat:*** Yukarıdaki şemada ay uçlarından geçmesi gereken düşey çizginin tam olarak uçlarda olmayıp biraz içeride kaldığı görülmektedir.
 Yani bu çizginin sağ tarafında aya ait hiçbir parça görülmemesi gerekirken parçalar bu şemada görülmektedir ve çizilen yıldızın ay içine
 biraz girmesine sebep olmaktadır. Bu, SVG motorunun bir hatası olabilir veya başka nedenlerle oluşabilir, ancak sonuçta hatadır.
 Bu çizginin **uçkur genişliğinin yarısı** kadar daha sağa alınması bu hatanın giderilmesini sağlamaktadır.
@@ -85,3 +85,17 @@ Bu durum aşağıdaki şekillerde net olarak görülmektedir.
         
 ![Çizim2](./cizgi2.svg)
 
+### Yıldızın çizilmesi
+
+![Yıldız](./yıldız.svg)
+
+Yukarıdaki şekilde yıldız çemberi ve bu çember üzerinde olması gereken 5 adet yıldız köşesi gösterilmektedir (a,b,c,d,e).
+Şu ana kadar a köşesi ile çember merkezinin (*O*) koordinatları ve çember yarıçapı (*r*) bilinmektedir.
+Kalan köşelerin koordinatlarını temel trigonometri bilgilerini kullanarak bulabiliriz.
+
+b ve c köşelerinden eksene birer dik çekerek hipotenüsleri çember yapıçapı olan iki dik üçgen elde edelim.
+Yıldız köşelerinin çemberi 5 eşit parçaya ayırdığı bilindiğine göre, a-b yayını gören merkez açı `360/5 = 72` derece olur.
+`cos(72) = x/r` eşitliğinden `x = cos(72)/r` olur. `sin(72) = y/r` eşitliğinden `y = sin(72)/r` olur.
+
+c ile eksen arasında kalan yayı gören merkez açı `180-(72+72) = 36` derece olur.
+`cos(36) = p/r` eşitliğinden `p = cos(36)/r` olur. `sin(36) = t/r` eşitliğinden `t = sin(36)/r` olur.
