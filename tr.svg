@@ -1,11 +1,12 @@
-<svg xmlns="http://www.w3.org/2000/svg" id="bayrak" viewBox="0 0 313.6666666666667 206">
-<g xmlns="http://www.w3.org/2000/svg" id="grp" transform="translate(3,3)">
-  <rect id="uçkur" style="fill: white; stroke: gray" x="0" y="0" width="6.666666666666667" height="200"/>
-  <rect id="gövde" style="fill: rgb(227,10,23); stroke: rgb(227,10,23)" x="7.666666666666667" y="0" width="300" height="200"/>
-<!-- hilal -->
-  <circle id="dış" style="fill: white; stroke: white" cx="107.66666666666667" cy="100" r="50"/>
-  <circle id="iç" style="fill: rgb(227,10,23); stroke: rgb(227,10,23)" cx="120.16666666666667" cy="100" r="40"/>
-<!-- yıldız -->
-  <polygon id="yıldız" style="fill-rule: nonzero; stroke: white; fill: white" points="146.83333333333334 100, 192.05875819270702 85.30536869268818, 164.10790847395967 123.77641290737884, 164.10790847395964 76.22358709262116, 192.05875819270705 114.69463130731182"/>
- </g>
- </svg>
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg"
+     viewBox="0 0 360 240">
+
+  <rect width="100%" height="100%" fill="rgb(227,10,23)" />
+
+  <circle cx="120"  cy="50%" r="60" fill="white" />
+  <circle cx="135"  cy="50%" r="48" fill="rgb(227,10,23)" />
+  
+  <polygon points="171,120 225.27050983124,102.36644243122 191.72949016875,148.53169548885 191.72949016875,91.46830451114 225.27050983124,137.63355756877"
+     fill="white" />
+	 
+</svg>
