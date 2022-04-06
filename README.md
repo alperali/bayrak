@@ -114,3 +114,17 @@ e = 191.72949016875,148.53169548885
 
 a köşesinden başlayıp saat yönünde birer köşe atlayarak `<polygon>` ile yıldız çizilir.
 
+```svg
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg"
+     viewBox="0 0 360 240">
+
+  <rect width="100%" height="100%" fill="rgb(227,10,23)" />
+
+  <circle cx="120"  cy="50%" r="60" fill="white" />
+  <circle cx="135"  cy="50%" r="48" fill="rgb(227,10,23)" />
+  
+  <polygon points="171,120 225.27050983124,102.36644243122 191.72949016875,148.53169548885 191.72949016875,91.46830451114 225.27050983124,137.63355756877"
+     fill="white" />
+	 
+</svg>
+```
