@@ -87,7 +87,7 @@ Bu durum aşağıdaki şekillerde net olarak görülmektedir.
 
 ### Yıldızın çizilmesi
 
-![Yıldız](./yıldız.svg)
+![Yıldız](./yildiz.svg)
 
 Yukarıdaki şekilde yıldız çemberi ve bu çember üzerinde olması gereken 5 adet yıldız köşesi gösterilmektedir (a,b,c,d,e).
 Şu ana kadar a köşesi ile çember merkezinin (*O*) koordinatları ve çember yarıçapı (*r*) bilinmektedir.
