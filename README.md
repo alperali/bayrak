@@ -76,6 +76,7 @@ a köşesi eksen üzerinde olduğundan e köşesi b'ye, d köşesi c'ye simetrik
 Yukarıda bulduğumuz büyüklüleri bu köşeler için de kullanabiliriz.
 
 Bu hesaplamalar sonucu köşelerin koordinatları aşağıdadır:
+
 ```
 a = 171,120
 b = 191.72949016875,91.46830451114
@@ -86,7 +87,10 @@ e = 191.72949016875,148.53169548885
 
 a köşesinden başlayıp saat yönünde birer köşe atlayarak `<polygon>` ile yıldız çizilir.
 
-```svg
+## Sonuç
+➡️ [Tarayıcıda göster](https://alperali.github.io/bayrak/tr.svg)
+
+```html
 <svg version="1.1" xmlns="http://www.w3.org/2000/svg"
      viewBox="0 0 360 240">
 
@@ -96,7 +100,6 @@ a köşesinden başlayıp saat yönünde birer köşe atlayarak `<polygon>` ile 
   <circle cx="135"  cy="50%" r="48" fill="rgb(227,10,23)" />
   
   <polygon points="171,120 225.27050983124,102.36644243122 191.72949016875,148.53169548885 191.72949016875,91.46830451114 225.27050983124,137.63355756877"
-     fill="white" />
-	 
+     fill="white" />	 
 </svg>
 ```
